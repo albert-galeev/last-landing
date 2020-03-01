@@ -5972,7 +5972,14 @@ h3{
 .wait{
   display: none;
 }
-
+@media (max-width: 900px){
+  .soc_footer li a.fa{
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    line-height: 46px;
+  }
+}
 
 
 
