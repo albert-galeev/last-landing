@@ -5985,8 +5985,15 @@ h3{
   .soc_footer li+li{
     margin-right: 5px;
   }
+  .slide-body .slider-modern-title{
+    text-align: center;
+  }
 }
-
+@media (min-width: 768px) and (max-width: 1024px){
+  .slide-body .slider-modern-title{
+    text-align: left;
+  }
+}
 
 
 
