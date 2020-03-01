@@ -5988,6 +5988,9 @@ h3{
   .slide-body .slider-modern-title{
     text-align: center;
   }
+  .block_number{
+    justify-content: center!important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px){
   .slide-body .slider-modern-title{
