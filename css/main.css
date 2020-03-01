@@ -5979,6 +5979,12 @@ h3{
     font-size: 20px;
     line-height: 46px;
   }
+  .soc_footer li:first-child{
+    margin-right: 5px;
+  }
+  .soc_footer li+li{
+    margin-right: 5px;
+  }
 }
 
 
