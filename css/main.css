@@ -5973,18 +5973,6 @@ h3{
   display: none;
 }
 @media (max-width: 900px){
-  .soc_footer li a.fa{
-    width: 46px;
-    height: 46px;
-    font-size: 20px;
-    line-height: 46px;
-  }
-  .soc_footer li:first-child{
-    margin-right: 5px;
-  }
-  .soc_footer li+li{
-    margin-right: 5px;
-  }
   .slide-body .slider-modern-title{
     text-align: center;
   }
@@ -5997,6 +5985,19 @@ h3{
     text-align: left;
   }
 }
+
+.soc_footer li a.fa{
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+    line-height: 46px;
+  }
+  .soc_footer li:first-child{
+    margin-right: 5px;
+  }
+  .soc_footer li+li{
+    margin-right: 5px;
+  }
 
 
 
