@@ -7,7 +7,6 @@
   <link media="all" rel="stylesheet" href="css/main.css">
   <link media="all" rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
 </head>
 <body class="home">
   <noscript><div>Javascript должен быть включен для нормальной работы сайта</div></noscript>
@@ -762,74 +761,11 @@
           </div>
         </div>
 
-
-
-
-        <div id="modal" class="modal">
-          <form action="#">
-            <div class="modal-heading">ОСТАВИТЬ ЗАПРОС НА ЗВОНОК</div>
-            <div class="modal-content">
-              <fieldset>
-                <div class="row">
-                  <input type="text" placeholder="Ваше имя" name="name">
-                  <input type="text" class="fof" placeholder="Ваша должность" name="fof">
-                </div>
-                <div class="row">
-                  <input type="tel" placeholder="Ваш телефон" required name="phone">
-                </div>
-                <div class="conf"><input type="checkbox" id="polit2"> <label for="polit2">соглашаюсь с <a href="/politika-konfidentsialnosti.html" target="_blank"><u>политикой конфиденциальности</u></a></label></div>
-                <div class="row button-row">
-                  <div id="wait2" class="wait"><img src="/images/ajax-loader.gif" width="62" height="62" alt=""></div>
-                  <input type="hidden" name="frmname" value="callform">
-                  <input type="hidden" name="resname" value="callres">
-                  <input type="hidden" name="parentpage" value="<?print($_SERVER['PHP_SELF']);?>">
-                  <input type="submit" name="nsubmit" value="Отправить" class="btn">
-                </div>
-              </fieldset>
-            </div>
-          </form>
-          <div id="callres">
-          </div>
-        </div>
-
-        <div id="modal_comment" class="modal">
-          <form action="#">
-            <div class="modal-heading">ОСТАВИТЬ ЗАПРОС НА ЗВОНОК</div>
-            <div class="modal-content">
-              <fieldset>
-                <div class="row">
-                  <input type="text" placeholder="Ваше имя" name="name">
-                  <input type="text" class="fof" placeholder="Ваша должность" name="fof">
-                </div>
-                <div class="row">
-                  <input type="tel" placeholder="Ваш телефон" required name="phone">
-                </div>
-                <div class="row">
-                  <textarea name="" id="" placeholder="Ваш комментарий"></textarea>
-                </div>
-                <div class="conf"><input type="checkbox" id="polit3"> <label for="polit3">соглашаюсь с <a href="/politika-konfidentsialnosti.html" target="_blank"><u>политикой конфиденциальности</u></a></label></div>
-                <div class="row button-row">
-                  <div id="wait3" class="wait"><img src="/images/ajax-loader.gif" width="62" height="62" alt=""></div>
-                  <input type="hidden" name="frmname" value="callform">
-                  <input type="hidden" name="resname" value="callres">
-                  <input type="hidden" name="parentpage" value="<?print($_SERVER['PHP_SELF']);?>">
-                  <input type="submit" name="nsubmit" value="Отправить" class="btn">
-                </div>
-              </fieldset>
-            </div>
-          </form>
-          <div id="callres">
-          </div>
-        </div>
-
       </div>
     </div>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-    <script>
-      window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')
-    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.main.js" defer></script>
     <script src="js/sameheight.js" defer></script>
   </body>
